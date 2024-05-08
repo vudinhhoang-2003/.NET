@@ -50,7 +50,6 @@ namespace QuanLyDanhBa
         void LoadListPhoneBook()
         {
             dtgvPhoneBook.DataSource = null;
-            CreatColumnForDataGridView();
             dtgvPhoneBook.DataSource = ListPhoneBook.Instance.ListNumberPhone;
             dtgvPhoneBook.Refresh();
         }
