@@ -170,7 +170,7 @@ namespace QuanLyDanhBa
             ListPhoneBook.Instance.ListNumberPhone.RemoveAt(Index);
             LoadListPhoneBook();
         }
-        #endregion
+        
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
@@ -205,6 +205,7 @@ namespace QuanLyDanhBa
             }
 
         }
+        #endregion
 
     }
 }
