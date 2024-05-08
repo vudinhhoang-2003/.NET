@@ -191,6 +191,7 @@
             this.btnDelete.TabIndex = 12;
             this.btnDelete.Text = "Xóa";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnSave
             // 
@@ -262,6 +263,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dtgvPhoneBook)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
         #endregion
         private System.Windows.Forms.MenuStrip menuStrip1;

@@ -42,3 +42,13 @@ D:\DCCTCLC66A1\Nam3_Ky2\7080108-Lập trình .NET 1 + BTL\BT\.Net\QuanLyDanhBa\o
 D:\DCCTCLC66A1\Nam3_Ky2\7080108-Lập trình .NET 1 + BTL\BT\.Net\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.pdb
 >>>>>>> 6ed8c836e15f4be4320840fd4c1f286c700e87e6
 >>>>>>> 2a473114dce954818bf0fd276f228c2fc9d4dd77
+D:\.NET\BTL\.NET\QuanLyDanhBa\bin\Debug\QuanLyDanhBa.exe.config
+D:\.NET\BTL\.NET\QuanLyDanhBa\bin\Debug\QuanLyDanhBa.exe
+D:\.NET\BTL\.NET\QuanLyDanhBa\bin\Debug\QuanLyDanhBa.pdb
+D:\.NET\BTL\.NET\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.csproj.AssemblyReference.cache
+D:\.NET\BTL\.NET\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.Form1.resources
+D:\.NET\BTL\.NET\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.Properties.Resources.resources
+D:\.NET\BTL\.NET\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.csproj.GenerateResource.cache
+D:\.NET\BTL\.NET\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.csproj.CoreCompileInputs.cache
+D:\.NET\BTL\.NET\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.exe
+D:\.NET\BTL\.NET\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.pdb

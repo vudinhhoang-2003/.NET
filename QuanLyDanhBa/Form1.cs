@@ -78,6 +78,8 @@ namespace QuanLyDanhBa
         {
             ClearTextBox();
             EnableControl(false, true);
+            btnAdd.Enabled = btnUpdate.Enabled = btnDelete.Enabled = true;
+            btnSave.Enabled = btnHuy.Enabled = false;
 
         }
 
@@ -154,6 +156,18 @@ namespace QuanLyDanhBa
         private void dtgvPhoneBook_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             Index = e.RowIndex;
+        }
+        
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (Index < 0)
+            {
+                MessageBox.Show("Hãy chọn một bản ghi", "Cảnh báo");
+                return;
+            }
+            ListPhoneBook.Instance.ListNumberPhone.RemoveAt(Index);
+            LoadListPhoneBook();
         }
         #endregion
     }
