@@ -20,7 +20,7 @@ namespace QuanLyDanhBa
             InitializeComponent();
         }
 
-        #region Method
+#region Method
         void CreatColumnForDataGridView()
         {
             var colName = new DataGridViewTextBoxColumn();
@@ -92,6 +92,7 @@ namespace QuanLyDanhBa
             CreatColumnForDataGridView();
             LoadListPhoneBook();
 
+
             btnSave.Enabled = btnHuy.Enabled = false;
         }
 
@@ -156,5 +157,40 @@ namespace QuanLyDanhBa
             Index = e.RowIndex;
         }
         #endregion
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            txbName.Enabled = true;
+            //dtgvPhoneBook.Enabled = false;
+            btnAdd.Enabled = false;
+        }
+
+
+        private void txbName_TextChanged(object sender, EventArgs e)
+        {
+            string search = txbName.Text;
+            if (search != "")
+            {
+                List<PhoneBook> listSearch = new List<PhoneBook>();
+                foreach (var item in ListPhoneBook.Instance.ListNumberPhone)
+                {
+                    if (item.Name.ToLower().Contains(search.ToLower()))
+                    {
+                        listSearch.Add(item);
+                    }
+                }
+
+                dtgvPhoneBook.DataSource = null;
+                CreatColumnForDataGridView();
+                dtgvPhoneBook.DataSource = listSearch;
+            }
+            else
+            {
+                dtgvPhoneBook.DataSource = null;
+                LoadListPhoneBook();
+            }
+
+        }
+
     }
 }
