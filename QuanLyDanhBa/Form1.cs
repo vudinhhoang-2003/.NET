@@ -49,9 +49,10 @@ namespace QuanLyDanhBa
 
         void LoadListPhoneBook()
         {
-            dtgvPhoneBook.DataSource = null;
+            //dtgvPhoneBook.DataSource = null;
             dtgvPhoneBook.DataSource = ListPhoneBook.Instance.ListNumberPhone;
-            dtgvPhoneBook.Refresh();
+           // dtgvPhoneBook.Refresh();
+
         }
 
         void EnableControl(bool isEnableTextBox, bool isEnableDataGridView)
@@ -199,7 +200,7 @@ namespace QuanLyDanhBa
             }
             else
             {
-                dtgvPhoneBook.DataSource = null;
+            //    dtgvPhoneBook.DataSource = null;
                 LoadListPhoneBook();
             }
 
