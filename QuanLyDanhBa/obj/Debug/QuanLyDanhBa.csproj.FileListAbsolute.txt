@@ -63,3 +63,13 @@ D:\.NET\BTL\.NET\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.csproj.CoreCompileInputs.ca
 D:\.NET\BTL\.NET\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.exe
 D:\.NET\BTL\.NET\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.pdb
 >>>>>>> 9a04382346e8382ad28a8806b29206c0464ca96d
+D:\NET 1\BTL\QuanLyDanhBa\bin\Debug\QuanLyDanhBa.exe.config
+D:\NET 1\BTL\QuanLyDanhBa\bin\Debug\QuanLyDanhBa.exe
+D:\NET 1\BTL\QuanLyDanhBa\bin\Debug\QuanLyDanhBa.pdb
+D:\NET 1\BTL\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.csproj.AssemblyReference.cache
+D:\NET 1\BTL\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.Form1.resources
+D:\NET 1\BTL\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.Properties.Resources.resources
+D:\NET 1\BTL\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.csproj.GenerateResource.cache
+D:\NET 1\BTL\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.csproj.CoreCompileInputs.cache
+D:\NET 1\BTL\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.exe
+D:\NET 1\BTL\QuanLyDanhBa\obj\Debug\QuanLyDanhBa.pdb
