@@ -174,9 +174,9 @@ namespace QuanLyDanhBa
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            txbName.Enabled = true;
-            //dtgvPhoneBook.Enabled = false;
-            btnAdd.Enabled = false;
+            EnableControl(true, false);
+            btnAdd.Enabled = btnUpdate.Enabled = btnDelete.Enabled = btnSave.Enabled = false;
+            btnHuy.Enabled = true;
         }
 
 
