@@ -20,6 +20,8 @@ namespace QuanLyDanhBa
             InitializeComponent();
         }
 
+        //Modify modify;
+
 #region Method
         void CreatColumnForDataGridView()
         {
@@ -90,6 +92,15 @@ namespace QuanLyDanhBa
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //modify = new Modify();
+            //try
+            //{
+            //    dtgvPhoneBook.DataSource = modify.getAllNguoiDung();
+            //}
+            //catch(Exception ex)
+            //{
+            //    MessageBox.Show("Lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //}
             EnableControl(false, true);
             CreatColumnForDataGridView();
             LoadListPhoneBook();
