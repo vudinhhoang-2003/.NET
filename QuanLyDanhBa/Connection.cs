@@ -9,7 +9,7 @@ namespace QuanLyDanhBa
 {
     internal class Connection
     {
-        private static string stringConnection = @"Data Source=DESKTOP-21DS3IV;Initial Catalog=danhBa;Integrated Security=True;Trust Server Certificate=True";
+        private static string stringConnection = @"Data Source=DESKTOP-3PTRNDJ\SQLEXPRESS;Initial Catalog=danhBa;Integrated Security=True;Trust Server Certificate=True";
         public SqlConnection GetConnection()
         {
             return new SqlConnection(stringConnection);
