@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|solutionrelative:quanlydanhba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|D:\\NET 1\\BTL\\quanlydanhba\\listphonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|solutionrelative:quanlydanhba\\listphonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|D:\\NET 1\\BTL\\quanlydanhba\\phonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|solutionrelative:quanlydanhba\\phonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|D:\\NET 1\\BTL\\quanlydanhba\\listphonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|solutionrelative:quanlydanhba\\listphonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|D:\\NET 1\\BTL\\quanlydanhba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -36,34 +36,36 @@
               "RelativeDocumentMoniker": "QuanLyDanhBa\\Form1.cs",
               "ToolTip": "D:\\NET 1\\BTL\\QuanLyDanhBa\\Form1.cs",
               "RelativeToolTip": "QuanLyDanhBa\\Form1.cs",
-              "ViewState": "AQIAAKQAAAAAAAAAAAAmwLIAAAAMAAAA",
+              "ViewState": "AQIAALMAAAAAAAAAAAAUwM4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T17:56:23.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ListPhoneBook.cs",
               "DocumentMoniker": "D:\\NET 1\\BTL\\QuanLyDanhBa\\ListPhoneBook.cs",
               "RelativeDocumentMoniker": "QuanLyDanhBa\\ListPhoneBook.cs",
               "ToolTip": "D:\\NET 1\\BTL\\QuanLyDanhBa\\ListPhoneBook.cs",
               "RelativeToolTip": "QuanLyDanhBa\\ListPhoneBook.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAUwCUAAABUAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T09:41:24.168Z"
+              "WhenOpened": "2024-05-08T09:41:24.168Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PhoneBook.cs",
               "DocumentMoniker": "D:\\NET 1\\BTL\\QuanLyDanhBa\\PhoneBook.cs",
               "RelativeDocumentMoniker": "QuanLyDanhBa\\PhoneBook.cs",
               "ToolTip": "D:\\NET 1\\BTL\\QuanLyDanhBa\\PhoneBook.cs",
               "RelativeToolTip": "QuanLyDanhBa\\PhoneBook.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowBsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:56:23.564Z"
+              "WhenOpened": "2024-05-07T17:56:23.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,7 +76,8 @@
               "ToolTip": "D:\\NET 1\\BTL\\QuanLyDanhBa\\Form1.cs [Design]",
               "RelativeToolTip": "QuanLyDanhBa\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:56:23.99Z"
+              "WhenOpened": "2024-05-07T17:56:23.99Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
