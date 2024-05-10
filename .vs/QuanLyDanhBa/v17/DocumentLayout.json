@@ -1,45 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DCCTCLC66A1\\Nam3_Ky2\\7080108-L\u1EADp tr\u00ECnh .NET 1 \u002B BTL\\BT\\new\\.NET\\",
+  "WorkspaceRootPath": "D:\\NET 1\\BTL\\",
   "Documents": [
     {
-<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|D:\\NET 1\\BTL\\quanlydanhba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|solutionrelative:quanlydanhba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|d:\\net 1\\btl\\quanlydanhba\\listphonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-      "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|d:\\dcctclc66a1\\nam3_ky2\\7080108-l\u1EADp tr\u00ECnh .net 1 \u002B btl\\bt\\new\\.net\\quanlydanhba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|solutionrelative:quanlydanhba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|D:\\DCCTCLC66A1\\Nam3_Ky2\\7080108-L\u1EADp tr\u00ECnh .NET 1 \u002B BTL\\BT\\new\\.NET\\quanlydanhba\\listphonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> 8cc8d44369b49561775f99f7b71ebb06f1125453
       "RelativeMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|solutionrelative:quanlydanhba\\listphonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|D:\\DCCTCLC66A1\\Nam3_Ky2\\7080108-L\u1EADp tr\u00ECnh .NET 1 \u002B BTL\\BT\\new\\.NET\\quanlydanhba\\phonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|D:\\NET 1\\BTL\\quanlydanhba\\phonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|solutionrelative:quanlydanhba\\phonebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|D:\\NET 1\\BTL\\quanlydanhba\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|solutionrelative:quanlydanhba\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|D:\\NET 1\\BTL\\quanlydanhba\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|solutionrelative:quanlydanhba\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|D:\\NET 1\\BTL\\quanlydanhba\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|solutionrelative:quanlydanhba\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|D:\\NET 1\\BTL\\quanlydanhba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-=======
-      "AbsoluteMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|D:\\DCCTCLC66A1\\Nam3_Ky2\\7080108-L\u1EADp tr\u00ECnh .NET 1 \u002B BTL\\BT\\new\\.NET\\quanlydanhba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
->>>>>>> 8cc8d44369b49561775f99f7b71ebb06f1125453
       "RelativeMoniker": "D:0:0:{0E0FEF43-B369-4198-A580-DC37778BE883}|QuanLyDanhBa\\QuanLyDanhBa.csproj|solutionrelative:quanlydanhba\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -56,15 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\DCCTCLC66A1\\Nam3_Ky2\\7080108-L\u1EADp tr\u00ECnh .NET 1 \u002B BTL\\BT\\new\\.NET\\QuanLyDanhBa\\Form1.cs",
+              "DocumentMoniker": "D:\\NET 1\\BTL\\QuanLyDanhBa\\Form1.cs",
               "RelativeDocumentMoniker": "QuanLyDanhBa\\Form1.cs",
-              "ToolTip": "D:\\DCCTCLC66A1\\Nam3_Ky2\\7080108-L\u1EADp tr\u00ECnh .NET 1 \u002B BTL\\BT\\new\\.NET\\QuanLyDanhBa\\Form1.cs",
+              "ToolTip": "D:\\NET 1\\BTL\\QuanLyDanhBa\\Form1.cs",
               "RelativeToolTip": "QuanLyDanhBa\\Form1.cs",
-<<<<<<< HEAD
-              "ViewState": "AQIAAJwAAAAAAAAAAAAAwNgAAAAAAAAA",
-=======
-              "ViewState": "AQIAAAAAAAAAAAAAAAAgwEsAAAAIAAAA",
->>>>>>> 8cc8d44369b49561775f99f7b71ebb06f1125453
+              "ViewState": "AQIAAPYAAAAAAAAAAAAAACAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T17:56:23.986Z",
               "EditorCaption": ""
@@ -73,11 +45,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ListPhoneBook.cs",
-              "DocumentMoniker": "D:\\DCCTCLC66A1\\Nam3_Ky2\\7080108-L\u1EADp tr\u00ECnh .NET 1 \u002B BTL\\BT\\new\\.NET\\QuanLyDanhBa\\ListPhoneBook.cs",
+              "DocumentMoniker": "D:\\NET 1\\BTL\\QuanLyDanhBa\\ListPhoneBook.cs",
               "RelativeDocumentMoniker": "QuanLyDanhBa\\ListPhoneBook.cs",
-              "ToolTip": "D:\\DCCTCLC66A1\\Nam3_Ky2\\7080108-L\u1EADp tr\u00ECnh .NET 1 \u002B BTL\\BT\\new\\.NET\\QuanLyDanhBa\\ListPhoneBook.cs",
+              "ToolTip": "D:\\NET 1\\BTL\\QuanLyDanhBa\\ListPhoneBook.cs",
               "RelativeToolTip": "QuanLyDanhBa\\ListPhoneBook.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAIwDwAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T09:41:24.168Z",
               "EditorCaption": ""
@@ -86,65 +58,26 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PhoneBook.cs",
-              "DocumentMoniker": "D:\\DCCTCLC66A1\\Nam3_Ky2\\7080108-L\u1EADp tr\u00ECnh .NET 1 \u002B BTL\\BT\\new\\.NET\\QuanLyDanhBa\\PhoneBook.cs",
+              "DocumentMoniker": "D:\\NET 1\\BTL\\QuanLyDanhBa\\PhoneBook.cs",
               "RelativeDocumentMoniker": "QuanLyDanhBa\\PhoneBook.cs",
-              "ToolTip": "D:\\DCCTCLC66A1\\Nam3_Ky2\\7080108-L\u1EADp tr\u00ECnh .NET 1 \u002B BTL\\BT\\new\\.NET\\QuanLyDanhBa\\PhoneBook.cs",
+              "ToolTip": "D:\\NET 1\\BTL\\QuanLyDanhBa\\PhoneBook.cs",
               "RelativeToolTip": "QuanLyDanhBa\\PhoneBook.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAowB4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T17:56:23.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\DCCTCLC66A1\\Nam3_Ky2\\7080108-L\u1EADp tr\u00ECnh .NET 1 \u002B BTL\\BT\\new\\.NET\\QuanLyDanhBa\\Form1.cs",
+              "DocumentMoniker": "D:\\NET 1\\BTL\\QuanLyDanhBa\\Form1.cs",
               "RelativeDocumentMoniker": "QuanLyDanhBa\\Form1.cs",
               "ToolTip": "D:\\NET 1\\BTL\\QuanLyDanhBa\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\NET 1\\BTL\\QuanLyDanhBa\\Form1.cs [Design]",
+              "RelativeToolTip": "QuanLyDanhBa\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T17:56:23.99Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Modify.cs",
-              "DocumentMoniker": "D:\\NET 1\\BTL\\QuanLyDanhBa\\Modify.cs",
-              "RelativeDocumentMoniker": "QuanLyDanhBa\\Modify.cs",
-              "ToolTip": "D:\\NET 1\\BTL\\QuanLyDanhBa\\Modify.cs",
-              "RelativeToolTip": "QuanLyDanhBa\\Modify.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAADwvyMAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:36:10.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "D:\\NET 1\\BTL\\QuanLyDanhBa\\Connection.cs",
-              "RelativeDocumentMoniker": "QuanLyDanhBa\\Connection.cs",
-              "ToolTip": "D:\\NET 1\\BTL\\QuanLyDanhBa\\Connection.cs",
-              "RelativeToolTip": "QuanLyDanhBa\\Connection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:58:16.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NguoiDung.cs",
-              "DocumentMoniker": "D:\\NET 1\\BTL\\QuanLyDanhBa\\NguoiDung.cs",
-              "RelativeDocumentMoniker": "QuanLyDanhBa\\NguoiDung.cs",
-              "ToolTip": "D:\\NET 1\\BTL\\QuanLyDanhBa\\NguoiDung.cs",
-              "RelativeToolTip": "QuanLyDanhBa\\NguoiDung.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:21:22.818Z",
-              "EditorCaption": ""
             }
           ]
         }

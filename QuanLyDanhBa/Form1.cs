@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Common;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,14 +17,44 @@ namespace QuanLyDanhBa
         string Status = "";
         int Index = -1;
 
+        private string connectionString = @"Data Source=VUHOANG\SQLEXPRESS;Initial Catalog=danhBa;Integrated Security=True;";
+        private SqlDataAdapter dataAdapter;
+        private DataTable dataTable;
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        //Modify modify;
 
-#region Method
+
+        #region Method
+        private void LoadDataFormBase()
+        {
+            try
+            {
+                // Tạo kết nối đến cơ sở dữ liệu
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    // Tạo truy vấn SQL
+                    string query = "SELECT hoTen, soDienThoai, idCoQuan, ghiChu FROM tblNguoiDung";
+
+                    // Tạo đối tượng SqlDataAdapter và đổ dữ liệu vào DataTable
+                    dataAdapter = new SqlDataAdapter(query, connection);
+                    dataTable = new DataTable();
+                    dataAdapter.Fill(dataTable);
+
+                    // Gán DataTable làm nguồn dữ liệu cho DataGridView
+                    dtgvPhoneBook.DataSource = dataTable;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải dữ liệu từ cơ sở dữ liệu: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
         void CreatColumnForDataGridView()
         {
             var colName = new DataGridViewTextBoxColumn();
@@ -92,18 +124,11 @@ namespace QuanLyDanhBa
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //modify = new Modify();
-            //try
-            //{
-            //    dtgvPhoneBook.DataSource = modify.getAllNguoiDung();
-            //}
-            //catch(Exception ex)
-            //{
-            //    MessageBox.Show("Lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
+           
             EnableControl(false, true);
             CreatColumnForDataGridView();
             LoadListPhoneBook();
+            LoadDataFormBase();
 
 
             btnSave.Enabled = btnHuy.Enabled = false;
