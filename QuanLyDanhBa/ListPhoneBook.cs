@@ -19,8 +19,7 @@ namespace QuanLyDanhBa
         private ListPhoneBook()
         {
             listNumberPhone = new List<PhoneBook>();
-            // Load data from database
-            LoadDataFromDatabase();
+            
         }
 
         public static ListPhoneBook Instance
@@ -33,6 +32,7 @@ namespace QuanLyDanhBa
             }
         }
 
+<<<<<<< HEAD
         private void LoadDataFromDatabase()
         {
             // Your database loading logic remains unchanged
@@ -53,5 +53,8 @@ namespace QuanLyDanhBa
         {
             listNumberPhone.RemoveAt(index);
         }
+=======
+        
+>>>>>>> f3a665c1db34ca41f053395e2a56d16b45f94ab2
     }
 }

@@ -2,6 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+<<<<<<< HEAD
+=======
+using System.Data.Common;
+using System.Data.SqlClient;
+using System.Drawing;
+>>>>>>> f3a665c1db34ca41f053395e2a56d16b45f94ab2
 using System.Linq;
 using System.Windows.Forms;
 
@@ -11,12 +17,49 @@ namespace QuanLyDanhBa
     {
         private int Index = -1;
 
+        private string connectionString = @"Data Source=VUHOANG\SQLEXPRESS;Initial Catalog=danhBa;Integrated Security=True;";
+        private SqlDataAdapter dataAdapter;
+        private DataTable dataTable;
+
         public Form1()
         {
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         private void Form1_Load(object sender, EventArgs e)
+=======
+
+
+        #region Method
+        private void LoadDataFormBase()
+        {
+            try
+            {
+                // Tạo kết nối đến cơ sở dữ liệu
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    // Tạo truy vấn SQL
+                    string query = "SELECT hoTen, soDienThoai, idCoQuan, ghiChu FROM tblNguoiDung";
+
+                    // Tạo đối tượng SqlDataAdapter và đổ dữ liệu vào DataTable
+                    dataAdapter = new SqlDataAdapter(query, connection);
+                    dataTable = new DataTable();
+                    dataAdapter.Fill(dataTable);
+
+                    // Gán DataTable làm nguồn dữ liệu cho DataGridView
+                    dtgvPhoneBook.DataSource = dataTable;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải dữ liệu từ cơ sở dữ liệu: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        void CreatColumnForDataGridView()
+>>>>>>> f3a665c1db34ca41f053395e2a56d16b45f94ab2
         {
             CreatColumnForDataGridView();
             EnableControl(false, true);
@@ -64,7 +107,44 @@ namespace QuanLyDanhBa
 
         private void ClearTextBox()
         {
+<<<<<<< HEAD
             txbName.Text = txbNumberPhone.Text = txbOrganization.Text = txbNote.Text = "";
+=======
+            foreach (var item in this.Controls)
+            {
+                TextBox item1 = item as TextBox;
+                if (item1 != null)
+                {
+                    item1.Clear();
+                }
+            }
+        }
+        #region Event
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            ClearTextBox();
+            EnableControl(false, true);
+            btnAdd.Enabled = btnUpdate.Enabled = btnDelete.Enabled = true;
+            btnSave.Enabled = btnHuy.Enabled = false;
+
+        }
+
+        private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+           
+            EnableControl(false, true);
+            CreatColumnForDataGridView();
+            LoadListPhoneBook();
+            LoadDataFormBase();
+
+
+            btnSave.Enabled = btnHuy.Enabled = false;
+>>>>>>> f3a665c1db34ca41f053395e2a56d16b45f94ab2
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
